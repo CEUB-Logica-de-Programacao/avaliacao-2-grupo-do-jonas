@@ -23,8 +23,11 @@
 # ```
 
 def q5(paths):
-    # Escreva seu código aqui
-    pass
+    origens = []
+    indicedaultimalinha = len(paths) -1
+    indicedaultimacoluna = paths[ultimalinha][len(paths[ultimalinha]) -1]
+    chave = paths[indicedaultimalinha][indicedaultimacoluna]
+    return chave
 
 
 if __name__ == '__main__':
