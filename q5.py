@@ -25,9 +25,8 @@
 def q5(paths):
     origens = []
     indicedaultimalinha = len(paths) -1
-    indicedaultimacoluna = paths[indicedaultimalinha][len(paths[indicedaultimalinha]) -1]
-    chave = paths[indicedaultimalinha][indicedaultimacoluna]
-    return chave
+    indicedaultimacoluna = paths[int(indicedaultimalinha)][len(paths[int(indicedaultimalinha)]) -1]
+    chave = paths[int(indicedaultimalinha)][int(indicedaultimacoluna)]
 
 
 if __name__ == '__main__':
