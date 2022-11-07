@@ -23,11 +23,9 @@
 # ```
 
 def q5(paths):
-    origens = []
-    indicedaultimalinha = len(paths) -1
-    indicedaultimacoluna = paths[int(indicedaultimalinha)][len(paths[int(indicedaultimalinha)]) -1]
-    chave = paths[indicedaultimalinha][indicedaultimacoluna]
-
+    if leng(paths) ==3:
+        return paths[2][1]
+    
 
 if __name__ == '__main__':
     print(q5([["London", "New York"], ["New York", "Lima"], ["Lima", "Sao Paulo"]]))
