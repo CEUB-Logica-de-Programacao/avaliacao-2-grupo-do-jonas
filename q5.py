@@ -23,9 +23,10 @@
 # ```
 
 def q5(paths):
-    # Escreva seu código aqui
-    pass
-
+    l = len(paths)
+    c = paths[l -1][len(paths[l-1])]
+    print(paths[l][c])
+    
 
 if __name__ == '__main__':
     print(q5([["London", "New York"], ["New York", "Lima"], ["Lima", "Sao Paulo"]]))

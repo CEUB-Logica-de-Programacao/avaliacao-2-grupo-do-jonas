@@ -25,9 +25,20 @@
 
 
 def q2(n):
-    # Escreva seu código aqui
-    pass
+    n1 = 0
+    n2 = 1
+    counter = 0
+    lista = {'n':0}
+    while counter < n:
+        x = n1 + n2
+        n1 = n2 
+        n2 = x
+        counter += 1
+        lista.update({'n': x})
+    for v in lista.values():
+        return v
 
+  
 
 if __name__ == '__main__':
     print(q2(2))

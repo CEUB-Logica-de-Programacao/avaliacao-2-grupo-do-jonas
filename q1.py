@@ -20,8 +20,18 @@
 # ```
 
 def q1(names, heights):
-    # Escreva seu código aqui
-    pass
+    dicionario = {}
+    resultado = []
+    for i in range(0,len(names)):
+        dicionario[heights[i]] = names[i]
+    
+    heights2 = sorted(heights)
+    heights2 = list(reversed(heights2))
+    
+    for i in heights2:
+        resultado.append(dicionario[i])
+    return resultado
+    
 
 
 if __name__ == '__main__':

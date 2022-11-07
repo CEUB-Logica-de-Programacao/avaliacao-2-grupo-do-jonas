@@ -18,7 +18,12 @@
 
 
 def bonus(nums):
-    # Escreva seu código aqui
+    uga=[nums]
+    resultado =''
+    uga.sort(reverse=True)
+    for i in uga:
+        resultado = resultado + str(i)
+    return resultado
     pass
 
 
