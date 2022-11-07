@@ -23,8 +23,9 @@
 # ```
 
 def q5(paths):
-    if len(paths) ==3:
-        return paths[2][1]
+    l = len(paths)
+    c = paths[l -1][len(paths[l-1])]
+    print(paths[l][c])
     
 
 if __name__ == '__main__':
