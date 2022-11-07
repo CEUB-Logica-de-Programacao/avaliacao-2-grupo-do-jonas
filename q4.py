@@ -47,7 +47,7 @@ def q4(numeral):
     return valor
 
 
-    pass
+
 
 
 if __name__ == '__main__':
