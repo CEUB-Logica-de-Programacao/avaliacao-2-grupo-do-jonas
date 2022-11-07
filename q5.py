@@ -23,7 +23,7 @@
 # ```
 
 def q5(paths):
-    if leng(paths) ==3:
+    if len(paths) ==3:
         return paths[2][1]
     
 
