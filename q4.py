@@ -35,7 +35,7 @@ def q4(numeral):
     ult_digito = valor_digito
     else:
     valor -= valor_digito
-return valor
+    return valor
 
 
 
